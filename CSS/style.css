@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #272b30
+}
+ nav {
+    background-color: rgb(58, 73, 123) !important;
+    border-radius: 20px;
+    box-shadow: 0 0 10px;
+ }
+.card{
+    background-color: #32383e;
+    transition: all 0.5s;
+    filter: grayscale(0.7);
+    /* border: solid 1px rgb(129, 122, 122); */
+}
+:hover.card{
+    transform: scale(1.1);
+    filter: grayscale(0);
+
+}
+.over{
+    font-size: 14px;
+    white-space:nowrap;
+    width: 240px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.details{
+    height: 100%;
+    width: 100%;
+}
